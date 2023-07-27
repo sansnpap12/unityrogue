@@ -43,6 +43,7 @@ public class CannonAttack : MonoBehaviour
 
         // 추가한 충돌체의 오프셋 설정 (원하는 위치로 수정)
         boxCollider.offset = new Vector2(0f, 0f);
+  
         // 포탄의 Order in Layer 설정
         SpriteRenderer spriteRenderer = projectile.GetComponent<SpriteRenderer>();
         if (spriteRenderer)

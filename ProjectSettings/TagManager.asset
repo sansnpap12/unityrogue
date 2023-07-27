@@ -11,6 +11,8 @@ TagManager:
   - PlayerHitBox
   - Enemy HitBox
   - Cannon
+  - Judge
+  - Shell
   layers:
   - Default
   - TransparentFX

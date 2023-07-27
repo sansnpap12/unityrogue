@@ -205,6 +205,12 @@ public class PlayerMovement : MonoBehaviour
 
         StartCoroutine(Unbeatable());
     }
+
+    if (collision.CompareTag("Shell")) {
+        StartCoroutine(hm.DecreaseHealthCoroutine(cannondamage));
+        StartCoroutine(Unbeatable());
+    }
+    
     }
 
     private IEnumerator Unbeatable()
