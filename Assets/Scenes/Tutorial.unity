@@ -3247,7 +3247,7 @@ GameObject:
   - component: {fileID: 1630117058}
   - component: {fileID: 1630117059}
   m_Layer: 0
-  m_Name: "\uB300\uD3EC"
+  m_Name: cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4777,7 +4777,7 @@ GameObject:
   - component: {fileID: 8330261818988212156}
   - component: {fileID: 8330261818988212159}
   m_Layer: 13
-  m_Name: Character (92)
+  m_Name: magicianmonster(water)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5088,7 +5088,7 @@ GameObject:
   - component: {fileID: 2054572472}
   - component: {fileID: 2054572473}
   m_Layer: 13
-  m_Name: Character (57)
+  m_Name: shortmonster(water)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5102,7 +5102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7593141306008012756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.29, y: -2.41, z: 0}
+  m_LocalPosition: {x: 14.98, y: -2.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
