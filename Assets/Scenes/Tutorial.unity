@@ -3359,8 +3359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d2ed7f4be22a9246b49a0196f5c8167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 6546605334695289892, guid: bd5f0e956db561b45ae03db6ddc3ae03, type: 3}
-  shell_visible: 1
+  CannonballPrefab: {fileID: 2221306450533443676, guid: ada66813339f0904da99f4a16d47192a, type: 3}
+  attackRate: 1.5
 --- !u!1 &1640453672
 GameObject:
   m_ObjectHideFlags: 0
