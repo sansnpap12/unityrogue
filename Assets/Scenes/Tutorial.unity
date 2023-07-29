@@ -4877,7 +4877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171937830002578014}
   - component: {fileID: 3171937830002578015}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5031,7 +5031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171937830191318688}
   - component: {fileID: 3171937830191318689}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5052,9 +5052,9 @@ GameObject:
   - component: {fileID: 8330261818988212157}
   - component: {fileID: 8330261818988212156}
   - component: {fileID: 8330261818988212159}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Character (92)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5154,7 +5154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171937830820542760}
   - component: {fileID: 3171937830820542761}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Arm Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5171,7 +5171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3171937831415455446}
   - component: {fileID: 3171937831415455447}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5378,7 +5378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7593141306008012756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.07, y: 1.59, z: 0}
+  m_LocalPosition: {x: 11.29, y: -2.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
