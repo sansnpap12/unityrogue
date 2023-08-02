@@ -13,6 +13,7 @@ TagManager:
   - Cannon
   - Judge
   - Shell
+  - MagicianEnemy
   layers:
   - Default
   - TransparentFX
