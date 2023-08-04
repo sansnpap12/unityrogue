@@ -65,17 +65,19 @@ public class EnemyMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            animator.SetTrigger("attack");
+        if (collision.gameObject.CompareTag("Player")) 
+        {       
+                animator.SetTrigger("attack"); 
         }
-
-
-        
+            StartCoroutine(DelayChangeMovement());
+        }
+    
+    IEnumerator DelayChangeMovement()
+    {
+        yield return new WaitForSeconds(1f);
     }
-}
-
-
+    
+    }
 
 
 
