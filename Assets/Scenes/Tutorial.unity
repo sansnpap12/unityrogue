@@ -290,7 +290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273848332}
   - component: {fileID: 273848334}
-  - component: {fileID: 273848333}
+  - component: {fileID: 273848335}
   m_Layer: 13
   m_Name: "\uD310\uC815"
   m_TagString: Judge
@@ -313,19 +313,6 @@ Transform:
   m_Father: {fileID: 7497340243904939376}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &273848333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273848331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29218d50025bccd4f8402838c902fa1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isColliding: 0
 --- !u!58 &273848334
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -342,6 +329,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 9
+--- !u!114 &273848335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273848331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19edcdfb33463874da64a686582e451b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isColliding: 0
 --- !u!1 &339849443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7593141306008012759
 Transform:
   m_ObjectHideFlags: 0
