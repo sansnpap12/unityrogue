@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class ChaseEnemyMovement : MonoBehaviour {
     Rigidbody2D rigid;
+    Animator animator;
+    
     public int moveDir;    // Moving direction, Random
     public Transform target; //target = player
 
+
+    void Start() {
+        animator = GetComponent<Animator>();
+
+    }
+    
     void Awake() {
         rigid = GetComponent<Rigidbody2D>();
         monsterAI();
@@ -17,6 +25,7 @@ public class ChaseEnemyMovement : MonoBehaviour {
 
     void FixedUpdate() {
         rigid.velocity = new Vector2(moveDir, rigid.velocity.y);
+
     }
 
     void monsterAI() {
@@ -36,6 +45,7 @@ public class ChaseEnemyMovement : MonoBehaviour {
         }
     }
     private void OnTriggerExit2D(Collider2D collision) {
+
         if (collision.gameObject.tag == "Player")
             monsterAI();    // return to normal
     }

@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     private HealthManager hm;
     private CannonAttack ca;
 
+    private float attackCooldown = 0.5f; // Adjust this value as desired for the cooldown time
+    private float lastAttackTime = 0f;
+    
     private bool canmove = true;
 
     float t1;
@@ -61,11 +64,11 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", true);
         }
 
-        if(Input.GetKeyDown(KeyCode.X)  && canmove == true) {
-
+        if (Input.GetKeyDown(KeyCode.X) && canmove == true && Time.time - lastAttackTime > attackCooldown)
+        {
             animator.SetTrigger("IsAttacking");
+            lastAttackTime = Time.time; // Update the last attack time to the current time
         }
-
 
 
         if (Input.GetKeyDown(KeyCode.Z) && (Input.GetAxis("Horizontal") != 0) && !trailRenderer.enabled  && canmove == true)
