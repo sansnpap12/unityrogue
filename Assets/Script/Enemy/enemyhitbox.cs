@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shortenemyhitbox : MonoBehaviour
+public class enemyhitbox : MonoBehaviour
 {
-   
-    public int health = 5;
+
+    private EnemyHealth enemyhealth;
     public Animator animator;
     private bool isPlayerAttacking = false;
 
     void Start()
-    {
+    {  
+        enemyhealth = FindObjectOfType<EnemyHealth>();
         animator = GetComponent<Animator>();
         animator.SetBool("enableAttack", false);
     }
@@ -30,8 +31,9 @@ public class shortenemyhitbox : MonoBehaviour
     {
         if (other.CompareTag("Player Weapon") && isPlayerAttacking)
         {
-            health -= 1;
-            Debug.Log(health);
+
+            StartCoroutine(enemyhealth.DecreaseHealthByAmount(10f));
+
         }
 
         animator.SetBool("enableAttack", false);

@@ -50,3 +50,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Above object
+    uniqueID: 351502419
+    locked: 0
