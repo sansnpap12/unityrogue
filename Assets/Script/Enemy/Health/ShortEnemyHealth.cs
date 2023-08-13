@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class EnemyHealth : MonoBehaviour
+public class ShortEnemyHealth : MonoBehaviour
 {
 
     private Image healthbar;

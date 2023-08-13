@@ -132,9 +132,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 15716524}
-  - component: {fileID: 15716527}
   - component: {fileID: 15716526}
   - component: {fileID: 15716525}
+  - component: {fileID: 15716527}
   m_Layer: 13
   m_Name: HitBox
   m_TagString: Enemy HitBox
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 15716523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2f215a8891f54b9d89578c6bdae54, type: 3}
+  m_Script: {fileID: 11500000, guid: a93e8b32c77ff274197fbeeadba3a83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1788195933}
@@ -446,8 +446,8 @@ GameObject:
   m_Component:
   - component: {fileID: 119516451}
   - component: {fileID: 119516454}
+  - component: {fileID: 119516455}
   - component: {fileID: 119516453}
-  - component: {fileID: 119516452}
   m_Layer: 5
   m_Name: shortmonhealth
   m_TagString: Untagged
@@ -477,18 +477,6 @@ RectTransform:
   m_AnchoredPosition: {x: -945.1699, y: -541}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &119516452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119516450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ebad0aa7123f740a03c6abf68efc21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &119516453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,6 +515,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119516450}
   m_CullTransparentMesh: 1
+--- !u!114 &119516455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119516450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0e45a8005c3fb4eab2a50500ef9aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &124047439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2261,7 +2261,7 @@ GameObject:
   - component: {fileID: 660041285}
   - component: {fileID: 660041288}
   - component: {fileID: 660041287}
-  - component: {fileID: 660041286}
+  - component: {fileID: 660041289}
   m_Layer: 5
   m_Name: magmonhealth
   m_TagString: Untagged
@@ -2291,18 +2291,6 @@ RectTransform:
   m_AnchoredPosition: {x: -946.46, y: -540.59}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &660041286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660041284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ebad0aa7123f740a03c6abf68efc21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &660041287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2341,6 +2329,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660041284}
   m_CullTransparentMesh: 1
+--- !u!114 &660041289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660041284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf02bac64b69aa746bc61fb59533a630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &719930968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,8 +3350,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127790935}
-  - component: {fileID: 1127790938}
   - component: {fileID: 1127790937}
+  - component: {fileID: 1127790938}
   - component: {fileID: 1127790936}
   m_Layer: 13
   m_Name: HitBox
@@ -3431,7 +3431,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1127790934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5d2f215a8891f54b9d89578c6bdae54, type: 3}
+  m_Script: {fileID: 11500000, guid: 9073b7a06bb7fd3458981e8bf53ec82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1788195933}

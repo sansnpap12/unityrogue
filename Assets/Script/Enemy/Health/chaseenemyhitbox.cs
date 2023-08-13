@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyhitbox : MonoBehaviour
+public class chaseenemyhitbox : MonoBehaviour
 {
 
-    private EnemyHealth enemyhealth;
+    private ChaseEnemyHealth chaseenemyhealth;
     public Animator animator;
     private bool isPlayerAttacking = false;
 
     void Start()
     {  
-        enemyhealth = FindObjectOfType<EnemyHealth>();
+        chaseenemyhealth = FindObjectOfType<ChaseEnemyHealth>();
         animator = GetComponent<Animator>();
         animator.SetBool("enableAttack", false);
     }
@@ -32,7 +32,7 @@ public class enemyhitbox : MonoBehaviour
         if (other.CompareTag("Player Weapon") && isPlayerAttacking)
         {
 
-            StartCoroutine(enemyhealth.DecreaseHealthByAmount(10f));
+            StartCoroutine(chaseenemyhealth.DecreaseHealthByAmount(10f));
 
         }
 
