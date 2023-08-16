@@ -17,6 +17,7 @@ public class PlayerAttackManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             StartCoroutine(EnableColliderForOneSecond());
+            
         }
     }
 

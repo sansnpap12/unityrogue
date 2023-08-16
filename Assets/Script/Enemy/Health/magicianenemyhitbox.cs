@@ -8,6 +8,8 @@ public class magicianenemyhitbox : MonoBehaviour
     private MagicianEnemyHealth magicianenemyhealth;
     public Animator animator;
     private bool isPlayerAttacking = false;
+        private float attackCooldown = 0.5f;
+    private float lastAttackTime;
 
     void Start()
     {  
@@ -21,9 +23,10 @@ public class magicianenemyhitbox : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && Time.time - lastAttackTime > attackCooldown)
         {
             isPlayerAttacking = true;
+            lastAttackTime = Time.time;
         }
     }
 

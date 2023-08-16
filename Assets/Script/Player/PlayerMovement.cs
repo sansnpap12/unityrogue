@@ -203,7 +203,6 @@ public class PlayerMovement : MonoBehaviour
     if (collision.gameObject.CompareTag("Cannon"))
     {   
         animator.SetTrigger("IsHurt");
-        OnDamaged(collision.transform.position);
         StartCoroutine(hm.DecreaseHealthCoroutine(cannondamage));
 
         StartCoroutine(Unbeatable());

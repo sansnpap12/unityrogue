@@ -4978,7 +4978,7 @@ GameObject:
   - component: {fileID: 1630117059}
   m_Layer: 13
   m_Name: cannon
-  m_TagString: Enemy
+  m_TagString: Cannon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
